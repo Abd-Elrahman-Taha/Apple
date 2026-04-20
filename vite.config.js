@@ -10,7 +10,8 @@ export default defineConfig({
         ipad: 'ipad.html',
         iphone: 'iphone.html',
         watch: 'watch.html',
-        airpods: 'airpods.html'
+        airpods: 'airpods.html',
+        store: 'store.html'
       }
     }
   }
