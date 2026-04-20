@@ -54,7 +54,7 @@ const modelGroup = new THREE.Group();
 scene.add(modelGroup);
 
 loader.load(
-    'public/3d_models/airpods.glb', 
+    '/3d_models/airpods.glb', 
     (gltf) => {
         model = gltf.scene;
         
@@ -280,7 +280,7 @@ const animate = () => {
     // Add subtle ambient floating so it never feels completely frozen
     if (modelGroup) {
         modelGroup.position.y += Math.sin(clock.getElapsedTime() * 1.5) * 0.001; 
-        modelGroup.rotation.y += 0.005; // extremely tiny spin
+        modelGroup.rotation.y += 0.005 ; // extremely tiny spin
     }
 
     renderer.render(scene, camera);
