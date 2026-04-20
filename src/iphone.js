@@ -134,14 +134,14 @@ function loadModel(path) {
         },
         (p) => {},
         (e) => {
-            if(path === '../3d_models/iphone.glb') {
-                loadModel('public/3d_models/iphone.glb'); 
+            if(path === '../3d_models/Iphone.glb') {
+                loadModel('/3d_models/Iphone.glb'); 
             }
         }
     );
 }
 
-loadModel('../3d_models/iphone.glb');
+loadModel('/3d_models/Iphone.glb');
 
 window.addEventListener('resize', () => {
     camera.aspect = window.innerWidth / window.innerHeight;

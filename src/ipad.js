@@ -105,7 +105,7 @@ function loadModel(path) {
         undefined,
         (e) => {
             if (path === '../3d_models/Ipad.glb') {
-                loadModel('public/3d_models/Ipad.glb');
+                loadModel('/3d_models/Ipad.glb');
             }
         }
     );

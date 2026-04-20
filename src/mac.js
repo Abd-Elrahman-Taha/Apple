@@ -188,7 +188,7 @@ function loadModel(path) {
         undefined,
         (e) => {
             if (path === '../3d_models/mac.glb') {
-                loadModel('public/3d_models/mac.glb');
+                loadModel('/3d_models/mac.glb');
             }
         }
     );
